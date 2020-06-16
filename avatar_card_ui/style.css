@@ -1,0 +1,80 @@
+ @import 'http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css';
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #fad3dd no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.card
+{
+    width: 280px;
+    padding: 20px;
+    background: #faeee7;
+    overflow: hidden;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+}
+
+.image
+{
+   
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.image img
+{
+    width: 150px;
+    height: 150px;
+}
+
+h1
+{
+    color: #88d5f1;
+    margin: 20px 0 0 0 ;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+span
+{
+    color: #f2a9a9;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.media a
+{
+    width: 40px;
+    font-size: 30px;
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.dribbble
+{
+    color: #ebb6c3;
+}
+.dribbble:hover
+{
+    color: #e28c8c;
+}
+
+.instagram
+{
+    color: #ebb6c3;
+}
+.instagram:hover
+{
+    color: #e28c8c;
+}
